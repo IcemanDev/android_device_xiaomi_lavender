@@ -1,4 +1,4 @@
-## android_device_xiaomi_lavender
+# android_device_xiaomi_lavender
 For building TWRP for Redmi Note 7 
 
 TWRP device tree for Redmi Note 7 
@@ -29,5 +29,5 @@ mka adbd recoveryimage ALLOW_MISSING_DEPENDENCIES=true
 Installation and testing:
 
 ```
-fastboot flash recovery out/target/product/lavender/recovery.img
+fastboot boot out/target/product/lavender/recovery.img
 ```
